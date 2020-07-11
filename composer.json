@@ -1,0 +1,20 @@
+{
+    "name": "amolgunjal/hello-world",
+    "description": "Hello World Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "amolgunjal",
+            "email": "amolgunjal1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
