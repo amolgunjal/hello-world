@@ -7,11 +7,8 @@ reqiure the below package name and its dev-master version
 
 In test.php
 
-<?php 
 require_once __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autoload
 
 use HelloWorld\HelloWorld;
 
 echo HelloWorld::world();
-
-?>
